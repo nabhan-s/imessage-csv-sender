@@ -1,0 +1,23 @@
+# Private runtime inputs and logs
+recipients.csv
+message.txt
+send_log.csv
+*.lock
+
+# Attachments may contain private or event-specific material
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.heic
+
+# Python and macOS artifacts
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+
+# Local editor settings
+.vscode/
+.idea/
